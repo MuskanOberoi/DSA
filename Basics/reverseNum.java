@@ -1,8 +1,6 @@
-package Basics;
 
 public class reverseNum {
     {
-        
          int n = 5678;
        int revNum = 0;
        while(n>0){
