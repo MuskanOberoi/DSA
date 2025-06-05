@@ -8,9 +8,8 @@ public class countDigits {
         int count = 0;
         while(n>0){
             int last_digit = n%10;
-            System.out.println(last_digit);
-            n=n/10;
             count++;
+            n=n/10;
             }
             System.out.println("Number of digits in the number is "+count);
         }
